@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "Sourcery"
-  s.version      = "1.4.2"
+  s.version      = "1.4.3"
   s.summary      = "A tool that brings meta-programming to Swift, allowing you to code generate Swift code."
 
   s.description  = <<-DESC
@@ -10,12 +10,12 @@ Pod::Spec.new do |s|
                    * Using SourceKit so you can scan your regular code.
                    DESC
 
-  s.homepage     = "https://github.com/krzysztofzablocki/Sourcery"
+  s.homepage     = "https://github.com/ajpahlevi/Sourcery"
   s.license      = 'MIT'
   s.author       = { "Krzysztof Zabłocki" => "krzysztof.zablocki@pixle.pl" }
   s.social_media_url = "https://twitter.com/merowing_"
 
-  s.source       = { :http => "https://github.com/krzysztofzablocki/Sourcery/releases/download/#{s.version}/sourcery-#{s.version}.zip" }
+  s.source       = { :http => "https://github.com/ajpahlevi/Sourcery/releases/download/#{s.version}/sourcery-#{s.version}.zip" }
   s.preserve_paths = '*'
   s.exclude_files = '**/file.zip'
 
